@@ -1,0 +1,13 @@
+_site
+.sass-cache
+.jekyll-metadata
+Gemfile.lock
+.idea
+/.pyprojectx/
+/.venv/
+/.changelog.md
+/wrappers.zip
+/dist/
+.pytest_cache/
+__pycache__
+.env

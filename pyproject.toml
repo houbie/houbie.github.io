@@ -1,0 +1,8 @@
+[tool.pyprojectx]
+
+[tool.pyprojectx.aliases]
+install = "bundle install"
+update = "bundle update"
+serve = "bundle exec jekyll serve"
+serve-prod = "JEKYLL_ENV=production bundle exec jekyll serve"
+build = "bundle exec jekyll build"
