@@ -124,7 +124,7 @@ comments:
     theme: light
 
 analytics:
-  provider               : google
+  provider               : google-gtag
   google:
     tracking_id          : G-7GB3G3TY7F
     anonymize_ip         : true
