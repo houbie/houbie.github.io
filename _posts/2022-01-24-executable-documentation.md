@@ -25,7 +25,7 @@ to the REPL.
 Of course this only makes sense if the effort for starting the notebook is less than a dozen copy/pastes.
 
 ## The conversion script
-The built-in [doctest](https://docs.python.org/3/library/doctest.htm) makes it trivial to separate text and code
+The built-in [doctest](https://docs.python.org/3/library/doctest.html) makes it trivial to separate text and code
 
 ```python
 from doctest import DocTestParser
