@@ -86,7 +86,7 @@ is converted to:
 ## Launching the Jupyter server
 We still need to avoid that our potential users give up when confronted with too long or too complex instructions.
 
-This is where [pyprojectx](https://github.com/houbie/pyprojectx) comes into play; we'll use it to start the entire experimentation session with a one liner:
+This is where [pyprojectx](https://github.com/houbie/pyprojectx) comes into play; we'll use it to start the entire experimentation session with a oneliner:
 ```shell
 git clone https://github.com/houbie/tomlkit.git && cd tomlkit &&./pw run-docs
 ```
