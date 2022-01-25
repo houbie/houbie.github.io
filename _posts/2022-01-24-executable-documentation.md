@@ -16,14 +16,11 @@ excerpt: >
 > It's common to include interactive Python sessions inside documentation.
 > With a small script we can turn these docs into Jupyter notebooks and serve them instantly.
 >
-> Mac/Linux
-> ```shell
-> git clone https://github.com/houbie/tomlkit.git && cd tomlkit &&./pw run-docs
-> ```
-> Windows
-> ```shell
-> git clone https://github.com/houbie/tomlkit.git && cd tomlkit && pw run-docs
-> ```
+> Example docs:
+> 
+> Mac/Linux `git clone https://github.com/houbie/tomlkit.git && cd tomlkit &&./pw run-docs`
+> 
+> Windows `git clone https://github.com/houbie/tomlkit.git && cd tomlkit && pw run-docs`
 
 ## Exploring a library
 I was recently exploring [tomlkit](https://github.com/sdispater/tomlkit), a library for parsing and editing toml files.
