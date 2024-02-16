@@ -34,7 +34,6 @@ Other notable changes in this release:
 * simplified configuration
 * combine multiple tools into tool contexts
 
-
 Enjoy!
 
 {% endcapture %}

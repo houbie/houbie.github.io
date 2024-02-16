@@ -52,8 +52,8 @@ What happened here?
 
 The cache of my CI/CD expired and PDM was reinstalled from scratch with `pip install pdm==2.5.3` (the same version as before).
 
-From PDM's _PKG-INFO_ file, we can see that it depends on _cachecontrol_: `Requires-Dist: cachecontrol[filecache]>=0.12.11`.
-_Cachecontrol_, on its turn, depends on the latest version of _requests_ in _setup.py_: `install_requires=["requests", "msgpack>=0.5.2"],`
+From PDM's _PKG-INFO_ file, we can see that it depends on _cachecontrol >=0.12.11_,
+which  on its turn, depends on the latest version of _requests_.
 
 It turns out that a new release of a transitive dependency, broke PDM version 2.5.3 forever (and probably all older versions as well).
 
