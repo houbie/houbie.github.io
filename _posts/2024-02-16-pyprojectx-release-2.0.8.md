@@ -1,5 +1,5 @@
 ---
-title: "Pyprojectx v0.8.5 released"
+title: "Pyprojectx v2.8.5 released"
 categories:
   - notice
 tags:
